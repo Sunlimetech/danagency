@@ -16,7 +16,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/styles.min.css" />
 		<!-- Font awesome  -->
 		<link
 			rel="stylesheet"
@@ -436,29 +436,7 @@
 		<script src="js/owl.carousel.min.js"></script>
 		
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script>
-			$(".owl-carousel").owlCarousel({
-				loop: true,
-				margin: 10,
-				dots: true,
-				responsiveClass: true,
-				navText: ['<span class="fas fa-angle-left fa-3x"></span>', '<span class="fas fa-angle-right fa-3x"></span>'],
-				responsive: {
-					0: {
-						items: 1,
-						nav: true,
-					},
-					1000: {
-							items: 3,
-						nav: true,
-						loop: true,
-						autoplay: true,
-						dots: true,
-					},
-				},
-			});
-			AOS.init();
-		</script>
+		<script src="js/master.js"></script>
 
 		<!-- Option 2: Separate Popper and Bootstrap JS -->
 		<!--
